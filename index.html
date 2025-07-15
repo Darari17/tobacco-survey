@@ -3,7 +3,70 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <meta name="description" content="Tobacco Survey" />
+    <title>Tobacco Survey</title>
   </head>
-  <body></body>
+  <body>
+    <form>
+      <div>
+        <label for="name">Name</label>
+        <br />
+        <input type="text" name="name" id="name" />
+      </div>
+      <div>
+        <label for="age">Age</label>
+        <br />
+        <input type="number" name="age" id="age" />
+      </div>
+      <br />
+
+      <div>
+        <label>Gender</label>
+        <br />
+        <input type="radio" name="gender" id="m" value="men" /><label for="m"
+          >Men</label
+        >
+        <input type="radio" name="gender" id="w" value="woman" /><label for="w"
+          >Woman</label
+        >
+      </div>
+      <br />
+
+      <div>
+        <label>Are you smoking?</label>
+        <select name="smoke" id="">
+          <option value="" disabled selected></option>
+          <option value="yes">Yes</option>
+          <option value="no">No</option>
+        </select>
+      </div>
+      <br />
+
+      <div>
+        <label for="brand">What brand of cigarette is being used?</label>
+        <br />
+        <input type="checkbox" name="magnum" id="magnum" /><label for="magnum"
+          >Magnum Filter</label
+        >
+        <input type="checkbox" name="marlboro" id="marlboro" /><label
+          for="marlboro"
+          >Marlboro</label
+        >
+        <input type="checkbox" name="coklat" id="coklat" /><label for="coklat"
+          >Djarum Coklat</label
+        >
+        <input type="checkbox" name="mild" id="mild" /><label for="mild"
+          >Sampoerna Mild</label
+        >
+        <input type="checkbox" name="filter" id="filter" /><label for="filter"
+          >Gudang Garam Filter</label
+        >
+      </div>
+      <br />
+
+      <button type="submit">Submit</button>
+      <br />
+      <button type="button"><a href="./page/table.html">Table</a></button>
+    </form>
+  </body>
 </html>
